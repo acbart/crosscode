@@ -3,4 +3,5 @@ import monacoEditorPlugin from 'vite-plugin-monaco-editor'
 
 export default defineConfig({
     plugins: [monacoEditorPlugin({})],
+    base: '/crosscode/'
 })
